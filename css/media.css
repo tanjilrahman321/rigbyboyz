@@ -1,0 +1,313 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    /* banner start  */
+
+    .logo {
+        width: 120px;
+    }
+
+    main .primary-btn {
+        font-size: 14px;
+        letter-spacing: 0px;
+        padding: 0px 0 0px 15px;
+        border-radius: 30px;
+        transition: 0.3s;
+    }
+
+    .banner-wrapper h1 {
+        margin-top: 50px;
+        font-size: 25px;
+    }
+
+    .service-slider-main h2 {
+        font-size: 16px;
+    }
+
+    /* banner end  */
+
+    /* about start  */
+
+    .about-wrapper {
+        margin-bottom: 50px;
+    }
+
+    .about-one-img {
+        margin-top: 0px;
+    }
+
+    .about-two-img {
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+    /* about end  */
+
+    /* service start  */
+
+    .service {
+        clip-path: polygon(70% 0, 100% 1%, 100% 100%, 78% 100%, 0 100%, 0 1%) !important;
+    }
+
+    .service-title h1 {
+        font-size: 26px;
+        letter-spacing: 2px;
+    }
+
+    .residential-btn {
+        font-size: 15px;
+        letter-spacing: 0px;
+        padding: 10px 20px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+
+    .commercial-btn {
+        font-size: 15px;
+        letter-spacing: 0px;
+        padding: 10px 20px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+
+    .service-icon {
+        top: 45%;
+    }
+
+    /* service end  */
+    /* Why choose start  */
+
+    .why-choose-us {
+        padding: 50px 0;
+    }
+
+    .why-choose-us-list li {
+        padding: 8px 15px;
+        margin: 8px 0;
+        font-size: 15px;
+        background-color: #1E40AF;
+        color: #fff;
+        font-weight: 500;
+        border-radius: 10px;
+    }
+
+    .why-choose-us h1 {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    /* Why choose end */
+    /* cta start  */
+
+    .cta {
+        padding: 50px 0;
+    }
+
+    .cta-wrapper h1 {
+        font-size: 20px;
+    }
+
+    /* cta end  */
+
+
+
+    /* request-quote start  */
+
+    .request-quote {
+        padding: 50px 0;
+    }
+
+    .request-quote h2 {
+        font-size: 16px;
+    }
+
+    .request-quote h2 span {
+        font-size: 26px;
+    }
+
+    .request-quote h1 {
+        font-size: 24px;
+    }
+
+
+    /* request-quote end  */
+
+
+    /* Gallery start  */
+
+    .gallery {
+        padding: 50px 0;
+    }
+
+    /* Gallery end  */
+
+    /* Google review start  */
+
+    .es-header-rating-container::after {
+        left: 228px;
+    }
+
+    /* Google review end  */
+
+    /* map-cta start  */
+
+    .map-cta {
+        margin: 50px 00;
+    }
+
+    .map-cta-wrapper {
+        background-color: #1E40AF;
+        padding: 30px 15px 50px;
+    }
+
+    .map-cta h1 {
+        font-size: 20px;
+    }
+
+    .map-cta p {
+        font-size: 14px;
+    }
+
+    /* map-cta end  */
+
+
+
+    /* faq start  */
+
+    .faq {
+        padding: 50px 0;
+    }
+
+    /* faq end  */
+    /* Footer start  */
+    .footer-cta h1 {
+        font-size: 18px;
+    }
+
+    .footer-link {
+        margin-top: 80px;
+    }
+
+    /* footer end  */
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* banner start  */
+
+
+    .banner-wrapper h1 {
+        margin-top: 50px;
+        font-size: 40px;
+    }
+
+    /* banner end  */
+
+
+    /* about start  */
+
+    .about-wrapper {
+        margin-bottom: 100px;
+    }
+
+    /* about end  */
+    /* service start  */
+
+    .service {
+        clip-path: polygon(70% 0, 100% 1%, 100% 100%, 78% 100%, 0 100%, 0 2%) !important;
+    }
+
+    .service-btns {
+        text-align: center;
+    }
+
+    /* service end  */
+
+    /* Google review start  */
+
+    .es-header-rating-container::after {
+        left: 340px;
+    }
+
+    /* Google review end  */
+
+    /* Footer start  */
+    .footer-cta h1 {
+        font-size: 30px;
+    }
+
+    .footer-link {
+        margin-top: 80px;
+    }
+
+    /* footer end  */
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* about start  */
+
+    .about-wrapper {
+        margin-bottom: 100px;
+    }
+
+    /* about end  */
+    /* service start  */
+
+    .service {
+        clip-path: polygon(70% 0, 100% 2%, 100% 100%, 78% 100%, 0 100%, 0 3%) !important;
+    }
+
+    /* service end  */
+
+
+
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* service start  */
+
+    .service {
+        clip-path: polygon(70% 0, 100% 1%, 100% 100%, 78% 100%, 0 100%, 0 1%) !important;
+    }
+
+    .service-desc h2 {
+        font-size: 15px;
+    }
+
+
+    .service-desc p {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    .service-icon {
+        top: 44%;
+    }
+
+    /* service end  */
+
+    /* request-quote start  */
+    .single-step {
+        padding: 30px 18px;
+    }
+
+    .single-step p {
+        margin-bottom: 0;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    /* request-quote end  */
+
+}
+
+/*X large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+/*XX Large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {}
